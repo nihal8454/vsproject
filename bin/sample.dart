@@ -3,7 +3,7 @@ import 'dart:io';
 
 void main(List<String> arguments) {
   String name="nihal";
-  int age=40;
+  int age=20;
   double mark=6.5;
   String email="nihal123@gmail.com";
   int a=10;
@@ -11,12 +11,15 @@ void main(List<String> arguments) {
   String s="sum";
   String d="difference";
   String m="multiplication";
+  String div="division";
   print('Hello world: ${sample.calculate()}!');
    print("my name is $name");
   print("im $age years old");
   print("my mark is $mark");
   stdout.write("email is $email");
+  
   print("\n$s=${a+b}");
   print("\n$d=${a-b}");
   print("\n$m=${a*b}");
+  print("\n$div=${a/b}");
 }
